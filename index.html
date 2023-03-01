@@ -5,87 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./css/estilos.css" />
-    <!--  
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
-      </style> 
-   
-    <link href="./fontawesome-free-6.3.0-web/css/fontawesome.css" rel="stylesheet">
-  <link href="./fontawesome-free-6.3.0-web/css/brands.css" rel="stylesheet">
-  <link href="./fontawesome-free-6.3.0-web/css/solid.css" rel="stylesheet">
- -->
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .topnav {
-      overflow: hidden;
-      background-color: #333;
-    }
-    
-    .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-    
-    .topnav a:hover {
-      background-color: blue;
-      color: black;
-    }
-    
-    .topnav a.active {
-      background-color: black;
-      color: white;
-    }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     </style>
+    <script src="script.js"></script>
+
 </head>
 <body>
-<!--     <i class="fa-solid fa-user"></i>
-
-    <p>Mi parrafo con solid style</p>
-    <i class="fa-brands fa-github-square"></i>
-
-    <p>Mi parrafo con brand style</p> -->
-
-    
-<div class="topnav">
-    <a class="active" href="#home">Inicio</a>
+  <div class="topnav">
+    <a id="Home" href="#home">Inicio</a>
     <a id="Exp" href="#exps">Experiencia Laboral</a>
-    <script src="scipt.js"></script>
+    <script src="script.js"></script>
     <a href="#edu">Educación</a>
     <a href="#idiomas">Idiomas</a>
   </div>
-  
-  <div style="padding-left:16px">
-    <h2>Top Navigation Example</h2>
-    <p>Some content..</p>
-  </div>
-  
-  <h1>Juan Ramon Perez</h1>
-  <a name="exps" />
-  <p>Agostina Jalabert, una modelo e influencer argentina de 31 años, fue encontrada muerta en un departamento de Playa del Carmen, en México, y su familia pide que el caso se investigue como un posible femicidio.
 
-    Oriunda de Carmen de Patagones, Agostina fue hallada por su hermana Candela en el departamento que compartían en el Complejo Paseo del Real, Paseo de Los Olivos, ubicado en la ciudad del Estado de Quintana Roo, en el que las hermanas vivían desde septiembre de 2022.
-    
-    A fines de diciembre, “el ex novio de Agostina fue a visitarla para pasar las fiestas, se reconciliaron y él se quedó a vivir con ambas”, detallaron desde su entorno.
-    
-    Te puede interesar: “Martín del Río me arruinó la vida”: habló la empleada doméstica sobreseída en el doble crimen de Vicente López
-    
-    De acuerdo al relato de Candela, esa mañana llegó a la propiedad y la encontró cerrada, algo que no era frecuente. Según explicó, Germán, tío de la víctima a Infobae, la puerta se abre con un código. La joven de 21 años lo ingresó una y otra vez y no pudo acceder. Preocupada, comenzó a golpear y a tocar el timbre. Incluso, llamó a su mamá para comunicarle la situación.
-    
-    Minutos antes, el guardia de seguridad del condominio le había advertido que las multarían debido a que esa noche los vecinos habían llamado a la Policía en dos oportunidades por ruidos, peleas y gritos que se escuchaban desde el departamento.</p>
+  <p> 
+    <img src="47.jpg" alt="No se encontró la imagen" align="left" id="imagen">
+    <h1>Juan Ramon Perez</h1>
+    <h3>Desarrollador Web</h3>
+  </p>
+
+
+  <a name="datos"></a>
+  <button id="boton" onclick="miFuncion()"> Ver Datos</button>
+  <p id="data" hidden=true>Telefono: (900) 235-0200   <br>    
+    e-mail: jr.perez@example.com</p>
+  <a name="exps"></a>
+  <p></p>
   <h2>Experiencia Laboral</h2>
+  <p>Desarrollo de paginas web para clientes con HTML, CSS y JS</p>
+  <p>Programación de microcontroladores en C y Assembly</p>
+  <p>Programación de software educativo en C++ </p>
   <a name="edu" />
   <h2>Educación</h2>
+  <li>Cursado hasta 4to año Ingenieria en Sistemas UTN</li>
+  <li>Curso de Front End TICMAS</li>
   <a name="idiomas" />
   <h2>Idiomas</h2>
+  <li>Español Nativo</li>
+  <li>Ingles Avanzado</li>
+  <li>Italiano Intermedio</li>
 
     
 </body>
