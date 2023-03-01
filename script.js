@@ -1,3 +1,3 @@
-document.getElementById('Exp').onclick=function(){
-    console.log("Hola Mundo");
+function miFuncion() {
+   document.getElementById("data").hidden=false;
 }
